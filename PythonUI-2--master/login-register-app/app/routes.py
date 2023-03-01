@@ -13,7 +13,7 @@ login_manager = LoginManager()
 login_manager.init_app(app)
 
 # 指定服務帳戶密鑰檔案的路徑
-key_path = os.path.join(os.getcwd(), "credentials", "peterproject-364114-254f42d07f55.json")
+key_path = os.path.join(os.getcwd(), "credentials", "peterproject-364114-3539754c6db0.json")
 
 # 設置環境變數
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = key_path
